@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'SANJUGotgam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANJUGotgam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EliceDigitalBaeum_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+#Total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-repeat : no-repeat;
+    background-size : cover;
+  }
+
+#backgroundImg {
+    border: 0;
+    padding: 0; 
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#clock {
+    font-family: "SANJUGotgam";
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+}
+
+#login-form, #greeting {
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+#login-form input {
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+} 
+
+#todo-total {
+    text-align: center;
+    color: aliceblue;
+}
+
+#todo-list {
+    font-family: "EliceDigitalBaeum_Bold";
+    color: white;
+    padding-left: 0;
+    margin-left: 550px;
+    margin-right: 550px;
+    /* background-color: black; */
+    /* opacity: 0.2; */
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+button {
+    border: 0;
+    background-color: gray;
+    color: white;
+    font-size: 6px;
+    border-radius: 4px;
+}
+
+#quote {
+    position: fixed; 
+    bottom: 25px; 
+    width: 100%;
+    text-align: center;
+    font-family: "EliceDigitalBaeum_Bold";
+    color: white;
+}
+
+#weather {
+    color: white;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;

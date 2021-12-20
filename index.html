@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Momentum_Hoon</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+      <div id="Total">
+        <div id="clock">00:00</div>
+        <h1 class="hidden" id="greeting"></h1>
+
+        <form class="hidden" id="login-form">
+            <input type="text" required maxlength="15" placeholder="Please write your name.">
+        </form>
+
+        <div class="hidden" id="todo-total">
+          <form id="todo-form">
+              <h3>whiat is your todo for today?</h5>
+              <input type="text" required placeholder="what is your Todo?">
+          </form>
+          <ul id="todo-list"></ul>
+        </div>
+
+        <div id="quote"></div>
+      
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>  
+
+      <script src="js/login.js"></script>
+      <script src="js/clock.js"></script>
+      <script src="js/todo.js"></script>
+      <script src="js/quote.js"></script>
+      <script src="js/img.js"></script>
+      <script src="js/weather.js"></script>
+  </body>
+</html>
